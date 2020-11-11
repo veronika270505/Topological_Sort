@@ -24,8 +24,8 @@ class Graph:
         # Push current vertex to stack which stores result 
         stack.insert(0,v) 
   
-    # The function to do Topological Sort. It uses recursive  
-    # topologicalSortUtil() 
+    # The function to do Topological_sort. It uses recursive  
+    # topological_sort_h() 
     def topological_sort(self):
         # Mark all the vertices as not visited 
         visited = [False]*self.V 
